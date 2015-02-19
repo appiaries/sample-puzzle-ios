@@ -205,7 +205,7 @@ http://docs.appiaries.com/?p=13580&lang=en
 in Japanese  
 http://docs.appiaries.com/?p=13576
 
-Also, the Android version available on GitHub.
+Also, Android version available on GitHub.  
 https://github.com/appiaries/sample-puzzle-android
 
 Appiaries  
