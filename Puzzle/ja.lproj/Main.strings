@@ -1,0 +1,108 @@
+
+/* Class = "IBUINavigationItem"; title = "Puzzle"; ObjectID = "1GU-X6-t4L"; */
+"1GU-X6-t4L.title" = "Puzzle";
+
+/* Class = "IBUIButton"; normalTitle = "送信"; ObjectID = "1cd-fr-rkf"; */
+"1cd-fr-rkf.normalTitle" = "送信";
+
+/* Class = "IBUIButton"; normalTitle = "OK"; ObjectID = "26U-u3-XZE"; */
+"26U-u3-XZE.normalTitle" = "OK";
+
+/* Class = "IBUIButton"; normalTitle = "ホーム"; ObjectID = "2CX-Ua-HlB"; */
+"2CX-Ua-HlB.normalTitle" = "ホーム";
+
+/* Class = "IBUIButton"; normalTitle = "新規登録"; ObjectID = "6Ia-Sw-ZfV"; */
+"6Ia-Sw-ZfV.normalTitle" = "新規登録";
+
+/* Class = "IBUILabel"; text = "TIME:"; ObjectID = "78h-8A-smo"; */
+"78h-8A-smo.text" = "TIME:";
+
+/* Class = "IBUILabel"; text = "●ニックネーム"; ObjectID = "7hk-Gy-tcl"; */
+"7hk-Gy-tcl.text" = "●ニックネーム";
+
+/* Class = "IBUILabel"; text = "※登録後に変更できません。"; ObjectID = "7sL-PK-HiR"; */
+"7sL-PK-HiR.text" = "※登録後に変更できません。";
+
+/* Class = "IBUILabel"; text = "error message"; ObjectID = "8Ol-n4-47j"; */
+"8Ol-n4-47j.text" = "error message";
+
+/* Class = "IBUINavigationItem"; title = "登録"; ObjectID = "Avp-Yr-LXX"; */
+"Avp-Yr-LXX.title" = "登録";
+
+/* Class = "IBUINavigationItem"; title = "Puzzle"; ObjectID = "BfV-cf-xIm"; */
+"BfV-cf-xIm.title" = "Puzzle";
+
+/* Class = "IBUILabel"; text = "●登録メールアドレス"; ObjectID = "Bib-sM-Aa4"; */
+"Bib-sM-Aa4.text" = "●登録メールアドレス";
+
+/* Class = "IBUITextField"; text = "Stage selected"; ObjectID = "ISR-iy-wV9"; */
+"ISR-iy-wV9.text" = "Stage selected";
+
+/* Class = "IBUILabel"; text = "先着ランキング："; ObjectID = "IvD-eH-Qlz"; */
+"IvD-eH-Qlz.text" = "先着ランキング：";
+
+/* Class = "IBUIButton"; normalTitle = "ログイン"; ObjectID = "JbP-HY-zLR"; */
+"JbP-HY-zLR.normalTitle" = "ログイン";
+
+/* Class = "IBUINavigationItem"; title = "ランキング"; ObjectID = "LlW-eC-IsS"; */
+"LlW-eC-IsS.title" = "ランキング";
+
+/* Class = "IBUILabel"; text = "Rank"; ObjectID = "MBL-32-C2F"; */
+"MBL-32-C2F.text" = "Rank";
+
+/* Class = "IBUILabel"; text = "※登録後に変更できません。"; ObjectID = "My4-cT-mXp"; */
+"My4-cT-mXp.text" = "※登録後に変更できません。";
+
+/* Class = "IBUILabel"; text = "Name"; ObjectID = "OGf-QK-p3P"; */
+"OGf-QK-p3P.text" = "Name";
+
+/* Class = "IBUILabel"; text = "結果："; ObjectID = "OUW-am-RNb"; */
+"OUW-am-RNb.text" = "結果：";
+
+/* Class = "IBUILabel"; text = "パスワードをお忘れの方は、下記フォームより空メールを送信ください。折り返し自動メールにてパスワードをご連絡致します。"; ObjectID = "OaU-W3-FBx"; */
+"OaU-W3-FBx.text" = "パスワードをお忘れの方は、下記フォームより空メールを送信ください。折り返し自動メールにてパスワードをご連絡致します。";
+
+/* Class = "IBUILabel"; text = "●パスワード"; ObjectID = "V1t-lx-eZJ"; */
+"V1t-lx-eZJ.text" = "●パスワード";
+
+/* Class = "IBUILabel"; text = "Stage level"; ObjectID = "XH3-YC-qVk"; */
+"XH3-YC-qVk.text" = "Stage level";
+
+/* Class = "IBUILabel"; text = "time"; ObjectID = "YJC-OJ-Btg"; */
+"YJC-OJ-Btg.text" = "time";
+
+/* Class = "IBUILabel"; text = "●ID"; ObjectID = "ZXr-yA-ZZe"; */
+"ZXr-yA-ZZe.text" = "●ID";
+
+/* Class = "IBUILabel"; text = "●パスワード"; ObjectID = "dHb-x2-guq"; */
+"dHb-x2-guq.text" = "●パスワード";
+
+/* Class = "IBUIViewController"; title = "Term and Condition"; ObjectID = "fTg-To-xxS"; */
+"fTg-To-xxS.title" = "Term and Condition";
+
+/* Class = "IBUINavigationItem"; title = "紹介"; ObjectID = "htS-Li-jCm"; */
+"htS-Li-jCm.title" = "紹介";
+
+/* Class = "IBUILabel"; text = "TIME:"; ObjectID = "jLB-eY-sHf"; */
+"jLB-eY-sHf.text" = "TIME:";
+
+/* Class = "IBUILabel"; text = "invalid warning message"; ObjectID = "kjQ-fc-3qT"; */
+"kjQ-fc-3qT.text" = "invalid warning message";
+
+/* Class = "IBUILabel"; text = "120秒"; ObjectID = "q3C-F1-Jmh"; */
+"q3C-F1-Jmh.text" = "120秒";
+
+/* Class = "IBUILabel"; text = "●ID"; ObjectID = "uYi-JW-3DH"; */
+"uYi-JW-3DH.text" = "●ID";
+
+/* Class = "IBUILabel"; text = "クリア時間ランキング："; ObjectID = "vyy-5e-xr1"; */
+"vyy-5e-xr1.text" = "クリア時間ランキング：";
+
+/* Class = "IBUILabel"; text = "●メールアドレス"; ObjectID = "x0f-tD-tiG"; */
+"x0f-tD-tiG.text" = "●メールアドレス";
+
+/* Class = "IBUIButton"; normalTitle = "先着リセット"; ObjectID = "ymO-Qj-OgO"; */
+"ymO-Qj-OgO.normalTitle" = "先着リセット";
+
+/* Class = "IBUINavigationItem"; title = "パスワード忘れる"; ObjectID = "zz8-5t-pyN"; */
+"zz8-5t-pyN.title" = "パスワード忘れる";
