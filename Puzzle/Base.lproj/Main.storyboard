@@ -8,7 +8,7 @@
         <!--Puzzle-->
         <scene sceneID="zrD-gc-ouT">
             <objects>
-                <viewController storyboardIdentifier="IdentityLoginView" id="Sor-Lj-mm1" customClass="LoginViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="IdentityLoginView" id="Sor-Lj-mm1" customClass="LogInViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="g7m-1s-dN6">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -50,7 +50,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="registNewID:" destination="Sor-Lj-mm1" eventType="touchUpInside" id="iYn-CC-tpz"/>
+                                    <action selector="signUp:" destination="Sor-Lj-mm1" eventType="touchUpInside" id="iYn-CC-tpz"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="invalid warning message" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kjQ-fc-3qT">
@@ -95,7 +95,7 @@
         <!--登録-->
         <scene sceneID="7OI-l6-mP1">
             <objects>
-                <viewController id="kvC-FG-ChS" customClass="RegisterViewController" sceneMemberID="viewController">
+                <viewController id="kvC-FG-ChS" customClass="SignUpViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Icd-Fv-MwQ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -172,7 +172,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="registNewID:" destination="kvC-FG-ChS" eventType="touchUpInside" id="iUj-v8-WdQ"/>
+                                    <action selector="signUp:" destination="kvC-FG-ChS" eventType="touchUpInside" id="iUj-v8-WdQ"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" clearButtonMode="whileEditing" id="Gfu-sF-w4D">
@@ -319,7 +319,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="rankingClearCell" rowHeight="49" id="V7K-XA-RBo" customClass="ClearCell">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="RankingViewCell" rowHeight="49" id="V7K-XA-RBo" customClass="RankingViewCell">
                                         <rect key="frame" x="0.0" y="22" width="288" height="49"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="V7K-XA-RBo" id="iMm-lb-I1t">

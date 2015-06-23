@@ -7,96 +7,85 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		296DD01D1BAE4F4FA9289A60 /* libPods-Puzzle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31108CFE0C584F34B324446E /* libPods-Puzzle.a */; };
+		31CD90B66B6C94FB6A119ACB /* FirstComeRanking.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CD93F092CB06FF8F0A731F /* FirstComeRanking.m */; };
+		31CD93D3CC9DB265B625353E /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CD955EB147B19728A9C518 /* Image.m */; };
+		31CD9427AA36DF89B1F06CFD /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CD92DD95E11EA90F048624 /* Player.m */; };
+		31CD987114E2B9442D8FA95E /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CD9B7FDD07AD0027889E22 /* UIImage+Resize.m */; };
+		31CD9B47336A98CFA509CF6A /* TimeRanking.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CD98A78A0AF9986E1B2F5A /* TimeRanking.m */; };
+		31CD9BEE71B8084AE876031E /* FirstComeRankingSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CD9705752D65A9CA100F44 /* FirstComeRankingSequence.m */; };
+		31CD9CB3DE81129A77FC4F76 /* Introduction.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CD9B892C3AD2468D9B6CC1 /* Introduction.m */; };
+		31CD9EC12DDF31800613162F /* Stage.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CD93E516D98FBBB67673F7 /* Stage.m */; };
 		8D79A51C1A8DCCEA00C1C7A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F53520D919ED09EE008F5AED /* Main.storyboard */; };
 		B72099411A15A39200D516BF /* IntroductionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B72099401A15A39200D516BF /* IntroductionViewController.m */; };
 		B723E1451A199537000625A9 /* TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B723E1441A199537000625A9 /* TopViewController.m */; };
-		B724D8481A1AE1CB0022F064 /* PuzImages.m in Sources */ = {isa = PBXBuildFile; fileRef = B724D8471A1AE1CB0022F064 /* PuzImages.m */; };
-		B724D84E1A1AF7280022F064 /* PuzTimeRanking.m in Sources */ = {isa = PBXBuildFile; fileRef = B724D84D1A1AF7280022F064 /* PuzTimeRanking.m */; };
-		B724D8511A1AF86B0022F064 /* PuzPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B724D8501A1AF86B0022F064 /* PuzPlayerManager.m */; };
 		B724D8531A1AF9180022F064 /* AppiariesSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B724D8521A1AF9180022F064 /* AppiariesSDK.framework */; };
-		B726110B1A1EEDA900E4B68B /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B726110A1A1EEDA900E4B68B /* MBProgressHUD.m */; };
-		B747AFDB1A19ECEC0011B800 /* ClearCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B747AFDA1A19ECEC0011B800 /* ClearCell.m */; };
-		B747AFDE1A1A0B1C0011B800 /* PuzPlayers.m in Sources */ = {isa = PBXBuildFile; fileRef = B747AFDD1A1A0B1C0011B800 /* PuzPlayers.m */; };
-		B747AFE11A1A0D950011B800 /* PuzStage.m in Sources */ = {isa = PBXBuildFile; fileRef = B747AFE01A1A0D950011B800 /* PuzStage.m */; };
-		B748ADAB19EF9A530025AF7B /* PuzAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B748AD9A19EF9A530025AF7B /* PuzAPIClient.m */; };
 		B75FA4B51A19ABB20000F5BE /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B75FA4B41A19ABB20000F5BE /* ResultViewController.m */; };
 		B75FA4B81A19B1A40000F5BE /* RankingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B75FA4B71A19B1A40000F5BE /* RankingViewController.m */; };
-		B7974D611A14602E00973335 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7974D601A14602E00973335 /* RegisterViewController.m */; };
-		B7A308D41A1CBCBC00F95987 /* PuzRankingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A308D31A1CBCBC00F95987 /* PuzRankingManager.m */; };
-		B7D2F0C41A1200EC009E8869 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D2F0C31A1200EC009E8869 /* LoginViewController.m */; };
-		D62552BE1A1DA37E00B700D8 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = D62552BD1A1DA37E00B700D8 /* UIImage+Resize.m */; };
-		D62552C21A1DA40000B700D8 /* TileBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = D62552C11A1DA40000B700D8 /* TileBoard.m */; };
-		D62552C51A1DA4C000B700D8 /* TileBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = D62552C41A1DA4C000B700D8 /* TileBoardView.m */; };
+		B7974D611A14602E00973335 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7974D601A14602E00973335 /* SignUpViewController.m */; };
+		B7D2F0C41A1200EC009E8869 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D2F0C31A1200EC009E8869 /* LogInViewController.m */; };
+		C5ADA440A383451F1FDC6A52 /* TileBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5ADAC0952F16322A5993563 /* TileBoardView.m */; };
+		C5ADA790A7272BF75FAEF6D1 /* Validator.m in Sources */ = {isa = PBXBuildFile; fileRef = C5ADA98DDBBDCF2B81A94943 /* Validator.m */; };
+		C5ADAC91A6518663E34AF94A /* TileBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = C5ADAA1D8D33EF235E18112A /* TileBoard.m */; };
+		C5ADAC98EEFC23E114598E08 /* PreferenceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C5ADAE52FE60445D36188219 /* PreferenceHelper.m */; };
+		C5ADAF9AE2FE3BA51A3A4034 /* RankingViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5ADAB2812AD1D2E21C2D68F /* RankingViewCell.m */; };
 		D62552C91A1DA79000B700D8 /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D62552C81A1DA79000B700D8 /* PlayViewController.m */; };
 		D63B7AF519EE5CCE00B0C93D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D63B7AF419EE5CCE00B0C93D /* Images.xcassets */; };
-		D682ECFF1A1C73510058629C /* StageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D682ECFE1A1C73510058629C /* StageManager.m */; };
-		D682ED021A1C8E440058629C /* PuzInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = D682ED011A1C8E440058629C /* PuzInformation.m */; };
-		D682ED051A1C8F510058629C /* InformationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D682ED041A1C8F510058629C /* InformationManager.m */; };
-		D682ED081A1CA0120058629C /* PuzComeRanking.m in Sources */ = {isa = PBXBuildFile; fileRef = D682ED071A1CA0120058629C /* PuzComeRanking.m */; };
 		D68D0CDC1A1DC8AB00D7CD45 /* SampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D68D0CDB1A1DC8AB00D7CD45 /* SampleViewController.m */; };
 		F53520C819ED09EE008F5AED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53520C719ED09EE008F5AED /* Foundation.framework */; };
 		F53520CA19ED09EE008F5AED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53520C919ED09EE008F5AED /* CoreGraphics.framework */; };
 		F53520CC19ED09EE008F5AED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53520CB19ED09EE008F5AED /* UIKit.framework */; };
 		F53520D219ED09EE008F5AED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F53520D019ED09EE008F5AED /* InfoPlist.strings */; };
 		F53520D419ED09EE008F5AED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F53520D319ED09EE008F5AED /* main.m */; };
-		F53520D819ED09EE008F5AED /* PUZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F53520D719ED09EE008F5AED /* PUZAppDelegate.m */; };
+		F53520D819ED09EE008F5AED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F53520D719ED09EE008F5AED /* AppDelegate.m */; };
 		F535211819ED3847008F5AED /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F535210A19ED3847008F5AED /* SplashViewController.m */; };
-		F535211A19ED3847008F5AED /* NSURL+dictionaryFromQueryString.m in Sources */ = {isa = PBXBuildFile; fileRef = F535211019ED3847008F5AED /* NSURL+dictionaryFromQueryString.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		31108CFE0C584F34B324446E /* libPods-Puzzle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Puzzle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31CD9012DCC7CA238D07C26B /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		31CD90A631D0EF5ABFB5A3ED /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		31CD90DCAF55D9D8E4D806AA /* Stage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage.h; sourceTree = "<group>"; };
+		31CD90EB807D4B3ED7F07910 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		31CD9126D0438064F8417D67 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		31CD9214A72FA5E5C8EF7259 /* FirstComeRanking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstComeRanking.h; sourceTree = "<group>"; };
+		31CD92DD95E11EA90F048624 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		31CD93E516D98FBBB67673F7 /* Stage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage.m; sourceTree = "<group>"; };
+		31CD93F092CB06FF8F0A731F /* FirstComeRanking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstComeRanking.m; sourceTree = "<group>"; };
+		31CD955EB147B19728A9C518 /* Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Image.m; sourceTree = "<group>"; };
+		31CD9705752D65A9CA100F44 /* FirstComeRankingSequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstComeRankingSequence.m; sourceTree = "<group>"; };
+		31CD98A78A0AF9986E1B2F5A /* TimeRanking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeRanking.m; sourceTree = "<group>"; };
+		31CD9B7FDD07AD0027889E22 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		31CD9B892C3AD2468D9B6CC1 /* Introduction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Introduction.m; sourceTree = "<group>"; };
+		31CD9DF9D39EF6B87033FAA8 /* TimeRanking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeRanking.h; sourceTree = "<group>"; };
+		31CD9F0BF08548BA6F716D3A /* Introduction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Introduction.h; sourceTree = "<group>"; };
+		31CD9FAAE4FF686B3DE974C7 /* FirstComeRankingSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstComeRankingSequence.h; sourceTree = "<group>"; };
 		46A0A05E7E5EA4CC6A69860D /* Pods-Puzzle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Puzzle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Puzzle/Pods-Puzzle.debug.xcconfig"; sourceTree = "<group>"; };
 		B720993F1A15A39200D516BF /* IntroductionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroductionViewController.h; sourceTree = "<group>"; };
 		B72099401A15A39200D516BF /* IntroductionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroductionViewController.m; sourceTree = "<group>"; };
 		B723E1431A199537000625A9 /* TopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopViewController.h; sourceTree = "<group>"; };
 		B723E1441A199537000625A9 /* TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopViewController.m; sourceTree = "<group>"; };
-		B724D8461A1AE1CB0022F064 /* PuzImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuzImages.h; sourceTree = "<group>"; };
-		B724D8471A1AE1CB0022F064 /* PuzImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PuzImages.m; sourceTree = "<group>"; };
-		B724D84C1A1AF7280022F064 /* PuzTimeRanking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuzTimeRanking.h; sourceTree = "<group>"; };
-		B724D84D1A1AF7280022F064 /* PuzTimeRanking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PuzTimeRanking.m; sourceTree = "<group>"; };
-		B724D84F1A1AF86B0022F064 /* PuzPlayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuzPlayerManager.h; sourceTree = "<group>"; };
-		B724D8501A1AF86B0022F064 /* PuzPlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PuzPlayerManager.m; sourceTree = "<group>"; };
 		B724D8521A1AF9180022F064 /* AppiariesSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppiariesSDK.framework; sourceTree = "<group>"; };
-		B72611091A1EEDA900E4B68B /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		B726110A1A1EEDA900E4B68B /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		B747AFD91A19ECEC0011B800 /* ClearCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClearCell.h; sourceTree = "<group>"; };
-		B747AFDA1A19ECEC0011B800 /* ClearCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClearCell.m; sourceTree = "<group>"; };
-		B747AFDC1A1A0B1C0011B800 /* PuzPlayers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuzPlayers.h; sourceTree = "<group>"; };
-		B747AFDD1A1A0B1C0011B800 /* PuzPlayers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PuzPlayers.m; sourceTree = "<group>"; };
-		B747AFDF1A1A0D950011B800 /* PuzStage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuzStage.h; sourceTree = "<group>"; };
-		B747AFE01A1A0D950011B800 /* PuzStage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PuzStage.m; sourceTree = "<group>"; };
-		B748AD9919EF9A530025AF7B /* PuzAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuzAPIClient.h; sourceTree = "<group>"; };
-		B748AD9A19EF9A530025AF7B /* PuzAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PuzAPIClient.m; sourceTree = "<group>"; };
 		B75FA4B31A19ABB20000F5BE /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
 		B75FA4B41A19ABB20000F5BE /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
 		B75FA4B61A19B1A40000F5BE /* RankingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankingViewController.h; sourceTree = "<group>"; };
 		B75FA4B71A19B1A40000F5BE /* RankingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankingViewController.m; sourceTree = "<group>"; };
-		B7974D5F1A14602E00973335 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
-		B7974D601A14602E00973335 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
-		B7A308D21A1CBCBC00F95987 /* PuzRankingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuzRankingManager.h; sourceTree = "<group>"; };
-		B7A308D31A1CBCBC00F95987 /* PuzRankingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PuzRankingManager.m; sourceTree = "<group>"; };
-		B7D2F0C21A1200EC009E8869 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		B7D2F0C31A1200EC009E8869 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		D62552BB1A1DA33600B700D8 /* TilePuzzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TilePuzzle.h; path = JSONModel/TilePuzzle.h; sourceTree = "<group>"; };
-		D62552BC1A1DA37E00B700D8 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Resize.h"; path = "JSONModel/UIImage+Resize.h"; sourceTree = "<group>"; };
-		D62552BD1A1DA37E00B700D8 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Resize.m"; path = "JSONModel/UIImage+Resize.m"; sourceTree = "<group>"; };
-		D62552C01A1DA40000B700D8 /* TileBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TileBoard.h; path = JSONModel/TileBoard.h; sourceTree = "<group>"; };
-		D62552C11A1DA40000B700D8 /* TileBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TileBoard.m; path = JSONModel/TileBoard.m; sourceTree = "<group>"; };
-		D62552C31A1DA4C000B700D8 /* TileBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TileBoardView.h; path = JSONModel/TileBoardView.h; sourceTree = "<group>"; };
-		D62552C41A1DA4C000B700D8 /* TileBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TileBoardView.m; path = JSONModel/TileBoardView.m; sourceTree = "<group>"; };
+		B7974D5F1A14602E00973335 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		B7974D601A14602E00973335 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		B7D2F0C21A1200EC009E8869 /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		B7D2F0C31A1200EC009E8869 /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
+		C5ADA5EFE0B642195B13D8B9 /* Validator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Validator.h; sourceTree = "<group>"; };
+		C5ADA6296DAC953C9BC32AA1 /* RankingViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankingViewCell.h; sourceTree = "<group>"; };
+		C5ADA9215962355581B10B9E /* TileBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TileBoardView.h; path = JSONModel/TileBoardView.h; sourceTree = "<group>"; };
+		C5ADA98DDBBDCF2B81A94943 /* Validator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Validator.m; sourceTree = "<group>"; };
+		C5ADAA1D8D33EF235E18112A /* TileBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TileBoard.m; path = JSONModel/TileBoard.m; sourceTree = "<group>"; };
+		C5ADAA94B5C3B9080098601E /* PreferenceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferenceHelper.h; sourceTree = "<group>"; };
+		C5ADAB2812AD1D2E21C2D68F /* RankingViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankingViewCell.m; sourceTree = "<group>"; };
+		C5ADAC0952F16322A5993563 /* TileBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TileBoardView.m; path = JSONModel/TileBoardView.m; sourceTree = "<group>"; };
+		C5ADAD9A51261140C7F01F66 /* TileBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TileBoard.h; path = JSONModel/TileBoard.h; sourceTree = "<group>"; };
+		C5ADAE52FE60445D36188219 /* PreferenceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferenceHelper.m; sourceTree = "<group>"; };
+		C5ADAED7A4C49C8A2D45D9BC /* TilePuzzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TilePuzzle.h; path = JSONModel/TilePuzzle.h; sourceTree = "<group>"; };
 		D62552C71A1DA79000B700D8 /* PlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
 		D62552C81A1DA79000B700D8 /* PlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
 		D63B7AF419EE5CCE00B0C93D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D682ECFD1A1C73510058629C /* StageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StageManager.h; sourceTree = "<group>"; };
-		D682ECFE1A1C73510058629C /* StageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StageManager.m; sourceTree = "<group>"; };
-		D682ED001A1C8E440058629C /* PuzInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuzInformation.h; sourceTree = "<group>"; };
-		D682ED011A1C8E440058629C /* PuzInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PuzInformation.m; sourceTree = "<group>"; };
-		D682ED031A1C8F510058629C /* InformationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationManager.h; sourceTree = "<group>"; };
-		D682ED041A1C8F510058629C /* InformationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationManager.m; sourceTree = "<group>"; };
-		D682ED061A1CA0120058629C /* PuzComeRanking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuzComeRanking.h; sourceTree = "<group>"; };
-		D682ED071A1CA0120058629C /* PuzComeRanking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PuzComeRanking.m; sourceTree = "<group>"; };
 		D68D0CDA1A1DC8AB00D7CD45 /* SampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleViewController.h; sourceTree = "<group>"; };
 		D68D0CDB1A1DC8AB00D7CD45 /* SampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleViewController.m; sourceTree = "<group>"; };
 		E7C3210455F7E23D65460E3C /* Pods-Puzzle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Puzzle.release.xcconfig"; path = "Pods/Target Support Files/Pods-Puzzle/Pods-Puzzle.release.xcconfig"; sourceTree = "<group>"; };
@@ -106,15 +95,12 @@
 		F53520CB19ED09EE008F5AED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F53520D119ED09EE008F5AED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F53520D319ED09EE008F5AED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F53520D619ED09EE008F5AED /* PUZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PUZAppDelegate.h; sourceTree = "<group>"; };
-		F53520D719ED09EE008F5AED /* PUZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PUZAppDelegate.m; sourceTree = "<group>"; };
+		F53520D619ED09EE008F5AED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F53520D719ED09EE008F5AED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F53520DA19ED09EE008F5AED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F53520E619ED09EE008F5AED /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F535210919ED3847008F5AED /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
 		F535210A19ED3847008F5AED /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
-		F535210F19ED3847008F5AED /* NSURL+dictionaryFromQueryString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+dictionaryFromQueryString.h"; sourceTree = "<group>"; };
-		F535211019ED3847008F5AED /* NSURL+dictionaryFromQueryString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+dictionaryFromQueryString.m"; sourceTree = "<group>"; };
-		F5A243D41A11F1310058BC28 /* PUZConfigurations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUZConfigurations.h; sourceTree = "<group>"; };
+		F5A243D41A11F1310058BC28 /* Configurations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Configurations.h; sourceTree = "<group>"; };
 		F5A243D51A11F1510058BC28 /* Puzzle-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Puzzle-Info.plist"; sourceTree = "<group>"; };
 		F5A243D61A11F1510058BC28 /* Puzzle-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Puzzle-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -125,10 +111,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F53520CA19ED09EE008F5AED /* CoreGraphics.framework in Frameworks */,
+				F53520C819ED09EE008F5AED /* Foundation.framework in Frameworks */,
 				F53520CC19ED09EE008F5AED /* UIKit.framework in Frameworks */,
 				B724D8531A1AF9180022F064 /* AppiariesSDK.framework in Frameworks */,
-				F53520C819ED09EE008F5AED /* Foundation.framework in Frameworks */,
-				296DD01D1BAE4F4FA9289A60 /* libPods-Puzzle.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,72 +129,85 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		B748AD9719EF9A530025AF7B /* Model */ = {
+		B748AD9719EF9A530025AF7B /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				B748AD9819EF9A530025AF7B /* APIClient */,
-				B748AD9B19EF9A530025AF7B /* JSONModel */,
-				B748ADA819EF9A530025AF7B /* Manager */,
-				D62552C61A1DA55100B700D8 /* TilePuzzle */,
+				31CD9214A72FA5E5C8EF7259 /* FirstComeRanking.h */,
+				31CD93F092CB06FF8F0A731F /* FirstComeRanking.m */,
+				31CD9FAAE4FF686B3DE974C7 /* FirstComeRankingSequence.h */,
+				31CD9705752D65A9CA100F44 /* FirstComeRankingSequence.m */,
+				31CD90EB807D4B3ED7F07910 /* Image.h */,
+				31CD955EB147B19728A9C518 /* Image.m */,
+				31CD9F0BF08548BA6F716D3A /* Introduction.h */,
+				31CD9B892C3AD2468D9B6CC1 /* Introduction.m */,
+				31CD9012DCC7CA238D07C26B /* Player.h */,
+				31CD92DD95E11EA90F048624 /* Player.m */,
+				31CD90DCAF55D9D8E4D806AA /* Stage.h */,
+				31CD93E516D98FBBB67673F7 /* Stage.m */,
+				31CD9DF9D39EF6B87033FAA8 /* TimeRanking.h */,
+				31CD98A78A0AF9986E1B2F5A /* TimeRanking.m */,
 			);
-			path = Model;
+			name = Models;
+			path = Components/Models;
 			sourceTree = "<group>";
 		};
-		B748AD9819EF9A530025AF7B /* APIClient */ = {
+		C5ADA0A2505590A2181C09DC /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				B748AD9919EF9A530025AF7B /* PuzAPIClient.h */,
-				B748AD9A19EF9A530025AF7B /* PuzAPIClient.m */,
+				31CD9126D0438064F8417D67 /* UIImage+Resize.h */,
+				31CD9B7FDD07AD0027889E22 /* UIImage+Resize.m */,
 			);
-			path = APIClient;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
-		B748AD9B19EF9A530025AF7B /* JSONModel */ = {
+		C5ADA350B299585815D580E4 /* TilePuzzle */ = {
 			isa = PBXGroup;
 			children = (
-				D682ED061A1CA0120058629C /* PuzComeRanking.h */,
-				D682ED071A1CA0120058629C /* PuzComeRanking.m */,
-				B724D8461A1AE1CB0022F064 /* PuzImages.h */,
-				B724D8471A1AE1CB0022F064 /* PuzImages.m */,
-				D682ED001A1C8E440058629C /* PuzInformation.h */,
-				D682ED011A1C8E440058629C /* PuzInformation.m */,
-				B747AFDC1A1A0B1C0011B800 /* PuzPlayers.h */,
-				B747AFDD1A1A0B1C0011B800 /* PuzPlayers.m */,
-				B747AFDF1A1A0D950011B800 /* PuzStage.h */,
-				B747AFE01A1A0D950011B800 /* PuzStage.m */,
-				B724D84C1A1AF7280022F064 /* PuzTimeRanking.h */,
-				B724D84D1A1AF7280022F064 /* PuzTimeRanking.m */,
-			);
-			path = JSONModel;
-			sourceTree = "<group>";
-		};
-		B748ADA819EF9A530025AF7B /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				D682ED031A1C8F510058629C /* InformationManager.h */,
-				D682ED041A1C8F510058629C /* InformationManager.m */,
-				B724D84F1A1AF86B0022F064 /* PuzPlayerManager.h */,
-				B724D8501A1AF86B0022F064 /* PuzPlayerManager.m */,
-				B7A308D21A1CBCBC00F95987 /* PuzRankingManager.h */,
-				B7A308D31A1CBCBC00F95987 /* PuzRankingManager.m */,
-				D682ECFD1A1C73510058629C /* StageManager.h */,
-				D682ECFE1A1C73510058629C /* StageManager.m */,
-			);
-			path = Manager;
-			sourceTree = "<group>";
-		};
-		D62552C61A1DA55100B700D8 /* TilePuzzle */ = {
-			isa = PBXGroup;
-			children = (
-				D62552C01A1DA40000B700D8 /* TileBoard.h */,
-				D62552C11A1DA40000B700D8 /* TileBoard.m */,
-				D62552C31A1DA4C000B700D8 /* TileBoardView.h */,
-				D62552C41A1DA4C000B700D8 /* TileBoardView.m */,
-				D62552BB1A1DA33600B700D8 /* TilePuzzle.h */,
-				D62552BC1A1DA37E00B700D8 /* UIImage+Resize.h */,
-				D62552BD1A1DA37E00B700D8 /* UIImage+Resize.m */,
+				C5ADAD9A51261140C7F01F66 /* TileBoard.h */,
+				C5ADAA1D8D33EF235E18112A /* TileBoard.m */,
+				C5ADA9215962355581B10B9E /* TileBoardView.h */,
+				C5ADAC0952F16322A5993563 /* TileBoardView.m */,
+				C5ADAED7A4C49C8A2D45D9BC /* TilePuzzle.h */,
 			);
 			name = TilePuzzle;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C5ADA5C93C406B2A1E06EF38 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C5ADA350B299585815D580E4 /* TilePuzzle */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C5ADA6F1AB79D672315A6781 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				C5ADA0A2505590A2181C09DC /* Extensions */,
+				C5ADAB76B1E8DEA2F0B88E35 /* Helpers */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		C5ADAB76B1E8DEA2F0B88E35 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C5ADAA94B5C3B9080098601E /* PreferenceHelper.h */,
+				C5ADAE52FE60445D36188219 /* PreferenceHelper.m */,
+				C5ADA5EFE0B642195B13D8B9 /* Validator.h */,
+				C5ADA98DDBBDCF2B81A94943 /* Validator.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C5ADACD1434B6DDF82D63B21 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C5ADA6296DAC953C9BC32AA1 /* RankingViewCell.h */,
+				C5ADAB2812AD1D2E21C2D68F /* RankingViewCell.m */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		F53520BB19ED09EE008F5AED = {
@@ -237,8 +235,6 @@
 				F53520C919ED09EE008F5AED /* CoreGraphics.framework */,
 				F53520C719ED09EE008F5AED /* Foundation.framework */,
 				F53520CB19ED09EE008F5AED /* UIKit.framework */,
-				F53520E619ED09EE008F5AED /* XCTest.framework */,
-				31108CFE0C584F34B324446E /* libPods-Puzzle.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -246,15 +242,16 @@
 		F53520CD19ED09EE008F5AED /* Puzzle */ = {
 			isa = PBXGroup;
 			children = (
-				F535210819ED3847008F5AED /* Controller */,
+				C5ADA5C93C406B2A1E06EF38 /* Components */,
+				F535210819ED3847008F5AED /* Controllers */,
 				F535210B19ED3847008F5AED /* Library */,
-				B748AD9719EF9A530025AF7B /* Model */,
+				B748AD9719EF9A530025AF7B /* Models */,
+				C5ADA6F1AB79D672315A6781 /* Support */,
 				F53520CE19ED09EE008F5AED /* Supporting Files */,
-				F535211619ED3847008F5AED /* View */,
 				D63B7AF419EE5CCE00B0C93D /* Images.xcassets */,
 				F53520D919ED09EE008F5AED /* Main.storyboard */,
-				F53520D619ED09EE008F5AED /* PUZAppDelegate.h */,
-				F53520D719ED09EE008F5AED /* PUZAppDelegate.m */,
+				F53520D619ED09EE008F5AED /* AppDelegate.h */,
+				F53520D719ED09EE008F5AED /* AppDelegate.m */,
 			);
 			path = Puzzle;
 			sourceTree = "<group>";
@@ -270,66 +267,39 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F535210819ED3847008F5AED /* Controller */ = {
+		F535210819ED3847008F5AED /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				C5ADACD1434B6DDF82D63B21 /* Cell */,
 				B720993F1A15A39200D516BF /* IntroductionViewController.h */,
 				B72099401A15A39200D516BF /* IntroductionViewController.m */,
-				B7D2F0C21A1200EC009E8869 /* LoginViewController.h */,
-				B7D2F0C31A1200EC009E8869 /* LoginViewController.m */,
-				B72611091A1EEDA900E4B68B /* MBProgressHUD.h */,
-				B726110A1A1EEDA900E4B68B /* MBProgressHUD.m */,
+				B7D2F0C21A1200EC009E8869 /* LogInViewController.h */,
+				B7D2F0C31A1200EC009E8869 /* LogInViewController.m */,
 				D62552C71A1DA79000B700D8 /* PlayViewController.h */,
 				D62552C81A1DA79000B700D8 /* PlayViewController.m */,
 				B75FA4B61A19B1A40000F5BE /* RankingViewController.h */,
 				B75FA4B71A19B1A40000F5BE /* RankingViewController.m */,
-				B7974D5F1A14602E00973335 /* RegisterViewController.h */,
-				B7974D601A14602E00973335 /* RegisterViewController.m */,
 				B75FA4B31A19ABB20000F5BE /* ResultViewController.h */,
 				B75FA4B41A19ABB20000F5BE /* ResultViewController.m */,
 				D68D0CDA1A1DC8AB00D7CD45 /* SampleViewController.h */,
 				D68D0CDB1A1DC8AB00D7CD45 /* SampleViewController.m */,
+				B7974D5F1A14602E00973335 /* SignUpViewController.h */,
+				B7974D601A14602E00973335 /* SignUpViewController.m */,
 				F535210919ED3847008F5AED /* SplashViewController.h */,
 				F535210A19ED3847008F5AED /* SplashViewController.m */,
 				B723E1431A199537000625A9 /* TopViewController.h */,
 				B723E1441A199537000625A9 /* TopViewController.m */,
 			);
-			path = Controller;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		F535210B19ED3847008F5AED /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				F535210C19ED3847008F5AED /* Extensions */,
-				F5A243D41A11F1310058BC28 /* PUZConfigurations.h */,
+				F5A243D41A11F1310058BC28 /* Configurations.h */,
+				31CD90A631D0EF5ABFB5A3ED /* Constants.h */,
 			);
 			path = Library;
-			sourceTree = "<group>";
-		};
-		F535210C19ED3847008F5AED /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				F535210F19ED3847008F5AED /* NSURL+dictionaryFromQueryString.h */,
-				F535211019ED3847008F5AED /* NSURL+dictionaryFromQueryString.m */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		F535211619ED3847008F5AED /* View */ = {
-			isa = PBXGroup;
-			children = (
-				F535211719ED3847008F5AED /* Cell */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		F535211719ED3847008F5AED /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				B747AFD91A19ECEC0011B800 /* ClearCell.h */,
-				B747AFDA1A19ECEC0011B800 /* ClearCell.m */,
-			);
-			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -339,11 +309,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F53520F619ED09EE008F5AED /* Build configuration list for PBXNativeTarget "Puzzle" */;
 			buildPhases = (
-				A0FB8B0030F646878100E6CF /* Check Pods Manifest.lock */,
 				F53520C019ED09EE008F5AED /* Sources */,
 				F53520C119ED09EE008F5AED /* Frameworks */,
 				F53520C219ED09EE008F5AED /* Resources */,
-				9E41425D54D24DDFB889DAAF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -394,72 +362,35 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		9E41425D54D24DDFB889DAAF /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Puzzle/Pods-Puzzle-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A0FB8B0030F646878100E6CF /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		F53520C019ED09EE008F5AED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D682ED081A1CA0120058629C /* PuzComeRanking.m in Sources */,
-				B747AFE11A1A0D950011B800 /* PuzStage.m in Sources */,
-				B724D8511A1AF86B0022F064 /* PuzPlayerManager.m in Sources */,
-				D62552C21A1DA40000B700D8 /* TileBoard.m in Sources */,
 				B75FA4B51A19ABB20000F5BE /* ResultViewController.m in Sources */,
 				F535211819ED3847008F5AED /* SplashViewController.m in Sources */,
-				D62552C51A1DA4C000B700D8 /* TileBoardView.m in Sources */,
-				B724D84E1A1AF7280022F064 /* PuzTimeRanking.m in Sources */,
-				B748ADAB19EF9A530025AF7B /* PuzAPIClient.m in Sources */,
-				D682ECFF1A1C73510058629C /* StageManager.m in Sources */,
-				B747AFDB1A19ECEC0011B800 /* ClearCell.m in Sources */,
 				B75FA4B81A19B1A40000F5BE /* RankingViewController.m in Sources */,
-				B747AFDE1A1A0B1C0011B800 /* PuzPlayers.m in Sources */,
-				F535211A19ED3847008F5AED /* NSURL+dictionaryFromQueryString.m in Sources */,
-				B7D2F0C41A1200EC009E8869 /* LoginViewController.m in Sources */,
-				B7974D611A14602E00973335 /* RegisterViewController.m in Sources */,
+				B7D2F0C41A1200EC009E8869 /* LogInViewController.m in Sources */,
+				B7974D611A14602E00973335 /* SignUpViewController.m in Sources */,
 				D62552C91A1DA79000B700D8 /* PlayViewController.m in Sources */,
-				D682ED021A1C8E440058629C /* PuzInformation.m in Sources */,
 				D68D0CDC1A1DC8AB00D7CD45 /* SampleViewController.m in Sources */,
-				B726110B1A1EEDA900E4B68B /* MBProgressHUD.m in Sources */,
-				D682ED051A1C8F510058629C /* InformationManager.m in Sources */,
 				B723E1451A199537000625A9 /* TopViewController.m in Sources */,
-				F53520D819ED09EE008F5AED /* PUZAppDelegate.m in Sources */,
-				B7A308D41A1CBCBC00F95987 /* PuzRankingManager.m in Sources */,
+				F53520D819ED09EE008F5AED /* AppDelegate.m in Sources */,
 				F53520D419ED09EE008F5AED /* main.m in Sources */,
-				D62552BE1A1DA37E00B700D8 /* UIImage+Resize.m in Sources */,
-				B724D8481A1AE1CB0022F064 /* PuzImages.m in Sources */,
 				B72099411A15A39200D516BF /* IntroductionViewController.m in Sources */,
+				C5ADAF9AE2FE3BA51A3A4034 /* RankingViewCell.m in Sources */,
+				C5ADAC91A6518663E34AF94A /* TileBoard.m in Sources */,
+				C5ADA440A383451F1FDC6A52 /* TileBoardView.m in Sources */,
+				C5ADAC98EEFC23E114598E08 /* PreferenceHelper.m in Sources */,
+				C5ADA790A7272BF75FAEF6D1 /* Validator.m in Sources */,
+				31CD987114E2B9442D8FA95E /* UIImage+Resize.m in Sources */,
+				31CD9427AA36DF89B1F06CFD /* Player.m in Sources */,
+				31CD9EC12DDF31800613162F /* Stage.m in Sources */,
+				31CD9B47336A98CFA509CF6A /* TimeRanking.m in Sources */,
+				31CD90B66B6C94FB6A119ACB /* FirstComeRanking.m in Sources */,
+				31CD93D3CC9DB265B625353E /* Image.m in Sources */,
+				31CD9CB3DE81129A77FC4F76 /* Introduction.m in Sources */,
+				31CD9BEE71B8084AE876031E /* FirstComeRankingSequence.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,7 +432,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -539,7 +470,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;

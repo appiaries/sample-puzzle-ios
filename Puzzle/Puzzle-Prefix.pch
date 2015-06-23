@@ -13,7 +13,11 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
-    #import "PUZConfigurations.h"
+
+    #import <SVProgressHUD/SVProgressHUD.h>
+    #import "Configurations.h"
+
+    #import <AppiariesSDK/AppiariesSDK.h>
 #endif
 
 #ifdef DEBUG

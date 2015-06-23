@@ -11,6 +11,10 @@ There are "Time Ranking" list and "First-Come Ranking" list.
 In order to keep track of orders for "First-Come",  
 we will be using "Sequence API" provided by Appiaries.
 
+## Updates
+
+* [2015-06-23] Upgraded the _Appiaries SDK_ vesion from _**"Appiaries SDK v.1.4.0"**_ to _**"Appiaries SDK v.2.0.0"**_.
+
 ## Requirements
 
 It does not require you an Appiaries account if you just want to build and run the app.  
@@ -200,10 +204,10 @@ number_of_vertical_pieces: 5
 For further details, refer to the official documents on Appiaries.
 
 in English  
-http://docs.appiaries.com/?p=13580&lang=en
+http://docs.appiaries.com/?p=14848&lang=en
 
 in Japanese  
-http://docs.appiaries.com/?p=13576
+http://docs.appiaries.com/?p=14735
 
 Also, Android version available on GitHub.  
 https://github.com/appiaries/sample-puzzle-android

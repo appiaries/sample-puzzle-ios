@@ -2,25 +2,46 @@
 //  AppiariesSDK.h
 //  AppiariesSDK
 //
-//  Created by Appiaries Corporation on 2014/08/25.
-//  Copyright (c) 2014 Appiaries Corporation. All rights reserved.
+//  Created by Appiaries Corporation on 2015/03/15.
+//  Copyright (c) 2015 Appiaries Corporation. All rights reserved.
 //
 
-#import <AppiariesSDK/APISFileAPIClient.h>
-#import <AppiariesSDK/APISJsonAPIClient.h>
-#import <AppiariesSDK/APISLocation.h>
-#import <AppiariesSDK/APISPushAPIClient.h>
-#import <AppiariesSDK/APISQueryCondition.h>
-#import <AppiariesSDK/APISResponseObject.h>
-#import <AppiariesSDK/APISSequenceAPIClient.h>
-#import <AppiariesSDK/APISSession.h>
-#import <AppiariesSDK/APISAppUser.h>
-#import <AppiariesSDK/APISAnonymousUtils.h>
-#import <AppiariesSDK/APISAppUserAPIClient.h>
-#import <AppiariesSDK/APISWebViewController.h>
-#import <AppiariesSDK/NSError+AppiariesSDK.h>
-#import <AppiariesSDK/NSUserDefaults+AppiariesSDK.h>
+#ifndef AppiariesSDK_AppiariesSDK____FILEEXTENSION___
+#define AppiariesSDK_AppiariesSDK____FILEEXTENSION___
 
-#import <AppiariesSDK/AppiariesConstConnectionResponse.h>
-#import <AppiariesSDK/AppiariesEntity.h>
-#import <AppiariesSDK/AppiariesPush.h>
+#import <Foundation/Foundation.h>
+
+
+#import <AppiariesSDK/ABConstants.h>
+#import <AppiariesSDK/ABClassRepository.h>
+#import <AppiariesSDK/ABModel.h>
+#import <AppiariesSDK/ABManagedProtocol.h>
+#import <AppiariesSDK/ABDBObject.h>
+#import <AppiariesSDK/ABDBService.h>
+#import <AppiariesSDK/ABDevice.h>
+#import <AppiariesSDK/ABError.h>
+#import <AppiariesSDK/ABFile.h>
+#import <AppiariesSDK/ABGeoPoint.h>
+#import <AppiariesSDK/ABPushMessage.h>
+#import <AppiariesSDK/ABQuery.h>
+#import <AppiariesSDK/ABRESTClient.h>
+#import <AppiariesSDK/ABSequence.h>
+#import <AppiariesSDK/ABTwitterConfig.h>
+#import <AppiariesSDK/ABTwitterClient.h>
+#import <AppiariesSDK/ABTwitterService.h>
+#import <AppiariesSDK/ABTwitterSession.h>
+#import <AppiariesSDK/ABUser.h>
+#import <AppiariesSDK/ABACL.h>
+#import <AppiariesSDK/AB.h>
+#import <AppiariesSDK/ABConfig.h>
+#import <AppiariesSDK/ABDeviceService.h>
+#import <AppiariesSDK/ABFileService.h>
+#import <AppiariesSDK/ABPopoverWebViewController.h>
+#import <AppiariesSDK/ABPopoverWebViewDelegate.h>
+#import <AppiariesSDK/ABPushService.h>
+#import <AppiariesSDK/ABResult.h>
+#import <AppiariesSDK/ABSequenceService.h>
+#import <AppiariesSDK/ABSession.h>
+#import <AppiariesSDK/ABUserService.h>
+
+#endif
