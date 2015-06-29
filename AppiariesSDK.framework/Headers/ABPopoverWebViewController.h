@@ -13,7 +13,7 @@
 /*!
  ポップオーバ WebView コントローラ
  */
-@interface ABPopoverWebViewController : UIViewController <ABWebViewSupport>
+@interface ABPopoverWebViewController : UIViewController  <UIWebViewDelegate, ABWebViewSupport>
 #pragma mark - Properties
 /** @name Properties */
 /*!

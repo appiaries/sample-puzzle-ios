@@ -17,7 +17,7 @@
  
  __See Also__: [アピアリーズドキュメント &raquo; プッシュ通知](http://docs.appiaries.com/?p=130)<br/>
  */
-@interface ABPushService : NSObject
+@interface ABPushService : NSObject <ABPopoverWebViewDelegate>
 
 #pragma mark - Initialization
 /*! @name Initialization */
