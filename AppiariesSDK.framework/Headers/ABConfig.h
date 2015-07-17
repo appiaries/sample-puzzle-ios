@@ -8,7 +8,7 @@
 @class ABTwitterConfig;
 
 /*!
- アピアリーズ BaaS 設定
+ アピアリーズ設定
  
  __See Also__: [アピアリーズドキュメント &raquo; アプリを設定する](http://docs.appiaries.com/?p=60)<br/>
  */

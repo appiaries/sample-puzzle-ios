@@ -19,7 +19,7 @@
 
 /*!
  アピアリーズ BaaS
- @discussion アピアリーズ BaaS の各種サービスにアクセスするための窓口となるクラスです。
+ @discussion アピアリーズの各種サービスにアクセスするための窓口となるクラスです。
  */
 @interface AB : NSObject
 #pragma mark - Properties

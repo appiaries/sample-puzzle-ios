@@ -15,7 +15,7 @@
 
 /*!
  基底モデル
- @discussion アピアリーズ BaaS 上で扱われる各種データ（オブジェクト）の基底モデルクラスです。
+ @discussion アピアリーズ上で扱われる各種データ（オブジェクト）の基底モデルクラスです。
  */
 @interface ABModel : NSObject <NSCoding, NSCopying>
 #pragma mark - Properties

@@ -6,7 +6,7 @@
 #import <Foundation/Foundation.h>
 
 /*!
- アピアリーズ BaaS 例外
+ アピアリーズ例外
  */
 @interface ABExceptions : NSObject
 
@@ -85,13 +85,13 @@
 
 /*!
  デバイス未登録例外を生成する
- @discussion デバイス情報がアピアリーズ BaaS に登録されていない状態でプッシュ通知サービス等を利用しようとした場合にスローされる例外です。
+ @discussion デバイス情報がアピアリーズに登録されていない状態でプッシュ通知サービス等を利用しようとした場合にスローされる例外です。
  @return NSException オブジェクト
  */
 + (NSException *)baasDeviceNotYetRegisteredException;
 /*!
  デバイス未登録例外を生成する
- @discussion デバイス情報がアピアリーズ BaaS に登録されていない状態でプッシュ通知サービス等を利用しようとした場合にスローされる例外です。
+ @discussion デバイス情報がアピアリーズに登録されていない状態でプッシュ通知サービス等を利用しようとした場合にスローされる例外です。
  @param userInfo 例外情報ディクショナリ
  @return NSException オブジェクト
  */
@@ -99,13 +99,13 @@
 
 /*!
  JSONデータ解析例外を生成する
- @discussion アピアリーズ BaaS から受信した JSON データの解析時に回復不能なエラーが発生した場合にスローされる例外です。
+ @discussion アピアリーズから受信した JSON データの解析時に回復不能なエラーが発生した場合にスローされる例外です。
  @return NSException オブジェクト
  */
 + (NSException *)baasJSONParseException;
 /*!
  JSONデータ解析例外を生成する
- @discussion アピアリーズ BaaS から受信した JSON データの解析時に回復不能なエラーが発生した場合にスローされる例外です。
+ @discussion アピアリーズから受信した JSON データの解析時に回復不能なエラーが発生した場合にスローされる例外です。
  @param userInfo 例外情報ディクショナリ
  @return NSException オブジェクト
  */

@@ -8,7 +8,7 @@
 @protocol ABPopoverWebViewDelegate;
 
 /*!
- アピアリーズ BaaS WebView サポート
+ WebView サポート
  @discussion リッチプッシュ通知の Webコンテンツを表示する WebView をカスタマイズする場合に、<br>
              ユーザ定義の UIViewController に本プロトコルを実装します。
  */

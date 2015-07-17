@@ -123,39 +123,39 @@
 #pragma mark - Handle Notification
 /*! @name Handle Notification */
 /*!
- プッシュ通知を捕捉する
+ プッシュ通知をハンドリングする
  @discussion アプリ内でプッシュ通知を捕捉し、適切な方法でアプリ利用者に通知メッセージを表示します。
  @see [アピアリーズドキュメント &raquo; プッシュ通知](http://docs.appiaries.com/?p=40)
  @param userInfo プッシュ通知情報ディクショナリ
- @return YES: 引数ディクショナリにアピアリーズ BaaS で管理するプッシュ通知情報が含まれており、かつ、それを表示する方法が見つかった場合
+ @return YES: 引数ディクショナリにアピアリーズで管理するプッシュ通知情報が含まれており、かつ、それを表示する方法が見つかった場合
  */
 - (BOOL)handlePushIfNeeded:(NSDictionary *)userInfo;
 /*!
- プッシュ通知を捕捉する
+ プッシュ通知をハンドリングする
  @discussion アプリ内でプッシュ通知を捕捉し、適切な方法でアプリ利用者に通知メッセージを表示します。
  @see [アピアリーズドキュメント &raquo; プッシュ通知](http://docs.appiaries.com/?p=40)
  @param userInfo プッシュ通知情報ディクショナリ
  @param option ABPushViewOption オプション
- @return YES: 引数ディクショナリにアピアリーズ BaaS で管理するプッシュ通知情報が含まれており、かつ、それを表示する方法が見つかった場合
+ @return YES: 引数ディクショナリにアピアリーズで管理するプッシュ通知情報が含まれており、かつ、それを表示する方法が見つかった場合
  */
 - (BOOL)handlePushIfNeeded:(NSDictionary *)userInfo option:(ABHandlePushOption)option;
 /*!
- プッシュ通知を捕捉する
+ プッシュ通知をハンドリングする
  @discussion アプリ内でプッシュ通知を捕捉し、適切な方法でアプリ利用者に通知メッセージを表示します。
  @see [アピアリーズドキュメント &raquo; プッシュ通知](http://docs.appiaries.com/?p=40)
  @param userInfo プッシュ通知情報ディクショナリ
  @param viewController URLが指定されていた場合にWebコンテンツを表示するビュー・コントローラ
- @return YES: 引数ディクショナリにアピアリーズ BaaS で管理するプッシュ通知情報が含まれており、かつ、それを表示する方法が見つかった場合
+ @return YES: 引数ディクショナリにアピアリーズで管理するプッシュ通知情報が含まれており、かつ、それを表示する方法が見つかった場合
  */
 - (BOOL)handlePushIfNeeded:(NSDictionary *)userInfo viewController:(UIViewController<ABWebViewSupport> *)viewController;
 /*!
- プッシュ通知を捕捉する
+ プッシュ通知をハンドリングする
  @discussion アプリ内でプッシュ通知を捕捉し、適切な方法でアプリ利用者に通知メッセージを表示します。
  @see [アピアリーズドキュメント &raquo; プッシュ通知](http://docs.appiaries.com/?p=40)
  @param userInfo プッシュ通知情報ディクショナリ
  @param viewController URLが指定されていた場合にWebコンテンツを表示するビュー・コントローラ
  @param option ABPushViewOption オプション
- @return YES: 引数ディクショナリにアピアリーズ BaaS で管理するプッシュ通知情報が含まれており、かつ、それを表示する方法が見つかった場合
+ @return YES: 引数ディクショナリにアピアリーズで管理するプッシュ通知情報が含まれており、かつ、それを表示する方法が見つかった場合
  */
 - (BOOL)handlePushIfNeeded:(NSDictionary *)userInfo viewController:(UIViewController <ABWebViewSupport> *)viewController option:(ABHandlePushOption)option;
 

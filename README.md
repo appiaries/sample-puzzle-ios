@@ -13,6 +13,7 @@ we will be using "Sequence API" provided by Appiaries.
 
 ## Updates
 
+* [2015-07-17] Upgraded the _Appiaries SDK_ vesion from _**"v.2.0.2"**_ to _**"v.2.0.3"**_.
 * [2015-06-29] Upgraded the _Appiaries SDK_ vesion from _**"v.2.0.0"**_ to _**"v.2.0.2"**_.
 * [2015-06-23] Upgraded the _Appiaries SDK_ vesion from _**"Appiaries SDK v.1.4.0"**_ to _**"Appiaries SDK v.2.0.0"**_.
 

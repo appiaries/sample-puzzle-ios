@@ -8,8 +8,8 @@
 @class ABGeoPoint;
 
 /*!
- アピアリーズ BaaS 管理オブジェクト・プロトコル
- @discussion アピアリーズ BaaS で管理するオブジェクトに使用します。<br/>
+ アピアリーズ管理オブジェクト・プロトコル
+ @discussion アピアリーズで管理するオブジェクトに使用します。<br/>
  実際には、ABModel を継承した組み込みクラス (ABDBObject / ABFile / ABSequence / ABUser / ABPushMessage) と合わせて使用します。
  */
 @protocol ABManagedProtocol <NSObject>
@@ -17,7 +17,7 @@
 @required
 /*!
  コレクションIDを返す
- @discussion アピアリーズ BaaS 上の対応するコレクションのIDを返却するよう実装します。
+ @discussion アピアリーズ上の対応するコレクションのIDを返却するよう実装します。
  @return コレクションID
  */
 + (NSString *)collectionID;
